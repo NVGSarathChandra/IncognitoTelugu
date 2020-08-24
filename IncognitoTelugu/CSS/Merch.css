@@ -1,0 +1,19 @@
+﻿body {
+    background-color:black;
+}
+
+h5, h5:visited
+ {
+    margin-left: 10px;
+    color: white;
+}
+
+a,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: black;
+    }

@@ -1,0 +1,26 @@
+﻿body {
+    background-color:black;
+}
+
+.footer {
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;   
+}
+h5{
+    margin-left: 10px;
+    color: white;
+}
+.icons {
+
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: white;
+    color: black;
+    margin: 5px 5px;    
+}
+

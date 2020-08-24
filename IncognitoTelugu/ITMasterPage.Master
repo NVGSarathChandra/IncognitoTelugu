@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ITMasterPage.master.cs" Inherits="IncognitoTelugu.ITMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="CSS/ITMasterPage.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" type="image/png" href="Images/IncognitoTelugu.png" />
+    <title>Incognito Telugu</title>
+</head>
+<body style="background-color: black;">
+
+
+    <div class="toolbar">
+
+        <h5 class="siteName"><a class="nav-link" href="Memes.aspx">Incognito Telugu</a></h5>
+        <div class="spacer"></div>
+        <a class="nav-link" style="padding: .5rem 0.5rem;" href="Memes.aspx">MEMES</a>
+        <a class="nav-link" style="padding: .5rem 0.5rem" href="Merch.aspx">MERCH</a>
+        <a class="nav-link" style="padding: .5rem 0.5rem" href="#">VIDEOS</a>
+        <a class="nav-link" style="padding: .5rem 0.5rem" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fteeshopper.in%2Fstore%2FIncognito-Telugu-X-Carb-Comics%3Ffbclid%3DIwAR0ZrD7XDrVzk43UBabhG6D9ZJheKMlCcGViJnR0iMUIZia5sli7TOOjIeI&h=AT3EPLq37567vDZp_AuQv8vkmEQPIU1Ns7Aq26Em-LgXfMM2Q85XZxCN0rjj_r859DkEgOIW-phcDHxr8DQ27fPUhjmp8un7o-xG35yDnErhYztaArAwUMq5gsVgPtBfJgCQ">ToT</a>
+        <a class="nav-link" style="padding: .5rem 0.5rem" href="#">ABOUT US</a>
+        <a class="nav-link" style="padding: .5rem 0.5rem" href="JoinUs.aspx">JOIN US</a>
+
+    </div>
+
+
+    <asp:ContentPlaceHolder ID="cph_Masterpage" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>
